@@ -1,4 +1,7 @@
 #Basic as it gets
 FROM ubuntu
 LABEL maintainer="RobCecc27" githubAccount="https://github.com/robcecc27"
-RUN echo "Hello World"
+RUN apt-get update
+RUN mkdir /myvol && cd /myvol
+VOLUME /myvol
+COPY LICENSE /myvol/
