@@ -3,5 +3,6 @@ FROM ubuntu
 LABEL maintainer="RobCecc27" githubAccount="https://github.com/robcecc27"
 RUN apt-get update
 RUN mkdir /myvol && cd /myvol
+RUN echo "some date for the file" > datafile.txt
 VOLUME /myvol
-COPY LICENSE /myvol/
+COPY  README.md /myvol
