@@ -1,3 +1,4 @@
 #Basic as it gets
 FROM ubuntu
+LABEL maintainer="RobCecc27" githubAccount="https://github.com/robcecc27"
 RUN echo "Hello World"
