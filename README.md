@@ -2,7 +2,7 @@
 Collection of Dockerfiles - Examples 
 
 
-[Ubuntu image, Run Echo](basic_ubuntu)
+[Ubuntu image](basic_ubuntu)
 
 # Misc. Files
 [Jenkinsfile](Jenkinsfile)
